@@ -1,0 +1,58 @@
+<?xml version="1.0"?>
+<TriggernometryExport Version="1">
+  <ExportedFolder Id="9a91a331-84f7-4203-8745-5f1b3ade9ad5" Name="WocGua" Enabled="true">
+    <Folders />
+    <Triggers>
+      <Trigger Enabled="true" Name="放庇护所到100,10,100" Id="913b2d79-d8f9-46f4-81d8-4d3840b56aeb" RegularExpression="">
+        <Actions>
+          <Action OrderNumber="1" NamedCallbackName="SendAction" NamedCallbackParam="1,3569,3758096384,&lt;100|10|100&gt;" ActionType="NamedCallback">
+            <Condition Enabled="false" Grouping="Or" />
+          </Action>
+        </Actions>
+        <Condition Enabled="false" Grouping="Or" />
+      </Trigger>
+      <Trigger Enabled="true" Name="TP到0,0,0" Id="87802ef5-17fd-4ebf-ba37-c8c767613021" RegularExpression="">
+        <Actions>
+          <Action OrderNumber="1" NamedCallbackName="Tp" NamedCallbackParam="0,0,0" ActionType="NamedCallback">
+            <Condition Enabled="false" Grouping="Or" />
+          </Action>
+        </Actions>
+        <Condition Enabled="false" Grouping="Or" />
+      </Trigger>
+      <Trigger Enabled="true" Name="用原初的解放" Id="e1875804-9d04-45ad-93dc-228cb2b0488b" RegularExpression="">
+        <Actions>
+          <Action OrderNumber="1" NamedCallbackName="SendAction" NamedCallbackParam="1,7389,3758096384" ActionType="NamedCallback">
+            <Condition Enabled="false" Grouping="Or" />
+          </Action>
+        </Actions>
+        <Condition Enabled="false" Grouping="Or" />
+      </Trigger>
+      <Trigger Enabled="true" Name="吃烧烤暗色茄子" Id="7848674b-17bc-42a9-83bc-3c1e9f93256c" RegularExpression="">
+        <Actions>
+          <Action OrderNumber="1" NamedCallbackName="SendAction" NamedCallbackParam="1039872" ActionType="NamedCallback">
+            <Condition Enabled="false" Grouping="Or" />
+          </Action>
+        </Actions>
+        <Condition Enabled="false" Grouping="Or" />
+      </Trigger>
+      <Trigger Enabled="true" Name="TPMO" Id="634d9e27-6bc4-4f1c-86ac-8772b88c741a" RegularExpression="">
+        <Actions>
+          <Action OrderNumber="1" NamedCallbackName="Tp" NamedCallbackParam="mo" ActionType="NamedCallback">
+            <Condition Enabled="false" Grouping="Or" />
+          </Action>
+        </Actions>
+        <Condition Enabled="false" Grouping="Or" />
+        <Conditions />
+      </Trigger>
+      <Trigger Enabled="true" Name="换万能拟饵" Id="1229ee83-7c82-4868-ad69-74a193d72d5d" RegularExpression="">
+        <Actions>
+          <Action OrderNumber="1" NamedCallbackName="ChangeBait" NamedCallbackParam="29717" ActionType="NamedCallback">
+            <Condition Enabled="false" Grouping="Or" />
+          </Action>
+        </Actions>
+        <Condition Enabled="false" Grouping="Or" />
+        <Conditions />
+      </Trigger>
+    </Triggers>
+  </ExportedFolder>
+</TriggernometryExport>
